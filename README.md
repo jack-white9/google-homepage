@@ -1,0 +1,1 @@
+This project is a visual and non-functional clone of the Google homepage, created as an HTML and CSS exercise under the Odin Project.
