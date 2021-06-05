@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <link rel="stylesheet" href="styles.css">
+        <title>Google</title>
     </head>
 
     <body>
@@ -11,15 +12,16 @@
             <li class="topleft-navbar-list">Store</li>
             <li class="topright-navbar-list">Gmail</li>
             <li class="topright-navbar-list">Images</li>
-            <li class="topright-navbar-list"><img src="images/apps-icon.svg" class="apps-icon" alt="App icon"></li>
-            <li class="topright-navbar-list"><img src="images/account-icon.jp" class="account-icon" alt="Account icon"></li>
+            <li class="topright-navbar-list" id="apps-icon"><img src="images/apps-icon.svg" alt="App icon"></li>
+            <li class="topright-navbar-list">
+                <button type="button" id="sign-in">Sign in</button>
+            </li>
         </ul>
 
         <img src="images/google-logo.png" class="logo" alt="Google logo">
         
         <form class="search-wrapper">
             <input type="text" class="search">
-            <img src="images/search-icon.svg" class="search-icon">
         </form>
     </body>
 </html>

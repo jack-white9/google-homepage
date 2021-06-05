@@ -9,6 +9,11 @@ body {
     padding: 0;
 }
 
+ul:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .topleft-navbar-list {
     display: inline;
     margin-left: 15px;
@@ -17,13 +22,30 @@ body {
     color: #222;
 }
 
-.topleft-navbar-list:hover {
-    text-decoration: underline;
-}
-
-
 .topright-navbar-list {
     display: inline;
+    position: relative;
+    left: 78vw; 
+    margin-left: 15px;
+    color: #222;
+}
+
+#apps-icon {
+    position: relative;
+    top: 7px;
+    opacity: 0.5;
+}
+
+#sign-in {
+    background-color: #1a73e8;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 9px 23px;
 }
 
 .logo {
@@ -36,12 +58,18 @@ body {
     margin-left: -150px;
 }
 
+input[type="text"] {
+    font-size: 16px;
+    background: url("images/search-icon.svg") no-repeat scroll 16px 15px;
+    padding-left: 50px;
+    padding-bottom: 4px;
+}
+
 .search-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    padding-top: 6px;
 }
 
 .search {
@@ -55,8 +83,4 @@ body {
 
 .search:hover {
     box-shadow: 0 1px 6px rgb(32 33 36 / 28%)
-}
-
-.search-icon {
-    opacity: 0.3;
 }
