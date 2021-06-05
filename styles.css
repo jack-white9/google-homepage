@@ -9,8 +9,12 @@ body {
     padding: 0;
 }
 
-ul:hover {
+#about:hover, #store:hover, #gmail:hover, #images:hover {
     text-decoration: underline;
+    cursor: pointer;
+}
+
+#apps-icon:hover {
     cursor: pointer;
 }
 
