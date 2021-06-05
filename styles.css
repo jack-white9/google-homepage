@@ -50,8 +50,8 @@ ul:hover {
 
 .logo {
     position: absolute;
-    left: 50%;
-    top: 42%;
+    left: 50vw;
+    top: 32vh;
     width: 272px;
     height: 92px;
     margin-top: -50px;
@@ -69,7 +69,7 @@ input[type="text"] {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 75vh;
 }
 
 .search {
