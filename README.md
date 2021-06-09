@@ -12,6 +12,6 @@
 <h2>What I Can Improve</h2>
 <p>This project also highlighted some areas for me to improve.</p>
 <ul>
-  <li>Responsive web design</ul>
-  <li>Using correctly named HTML5 tags</ul>
+  <li>Responsive web design</li>
+  <li>Using correctly named HTML5 tags</li>
 </ul>
